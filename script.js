@@ -38,7 +38,7 @@ function initMap() {
 // Load Google Maps API script
 document.addEventListener('DOMContentLoaded', function() {
     const script = document.createElement('script');
-    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD0vihV9_QtGb4kwySD1XKb47LfAsoPgE8&callback=initMap';
+    script.src = 'https://maps.googleapis.com/maps/api/js?key=YOUR_API&callback=initMap';
     script.defer = true;
     script.async = true;
 
